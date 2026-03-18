@@ -1,0 +1,24 @@
+{
+  "name": "spark-playwright-bdd",
+  "version": "1.0.0",
+  "description": "Playwright BDD Cucumber framework for Spark NZ e-commerce flows",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headed": "HEADLESS=false cucumber-js",
+    "test:gallery": "cucumber-js --tags @gallery",
+    "test:pdp": "cucumber-js --tags @pdp",
+    "test:cart": "cucumber-js --tags @cart",
+    "test:smoke": "cucumber-js --tags @smoke",
+    "report": "node src/utils/generateReport.js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.44.0",
+    "playwright": "^1.44.0",
+    "multiple-cucumber-html-reporter": "^3.5.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7"
+  }
+}
