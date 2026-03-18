@@ -1,4 +1,4 @@
-# Spark NZ — Playwright BDD Cucumber Framework
+# Playwright BDD Cucumber Framework
 
 A complete end-to-end test automation framework for the Spark NZ device shop,
 built with **Playwright** + **Cucumber (BDD)** + **Page Object Model**.
